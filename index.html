@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-container">
+        <img src="./imagens/lol.png" alt="lol icon">
+        <h1>League of Legends Memory Game</h1>
+        
+        <div class="difficulty-selection">
+            <label for="difficulty">Escolha a dificuldade:</label>
+            <select id="difficulty">
+                <option value="facil">Fácil </option>
+                <option value="medio">Médio </option>
+                <option value="dificil">Difícil </option>
+            </select>
+        </div>
+
+        <div class="name-input">
+            <label for="player-name">Digite seu nome:</label>
+            <input type="text" id="player-name" placeholder="Seu nome" required>
+        </div>
+
+        <button id="start-game">Iniciar Jogo</button>
+    </div>
+    <div class="ranking">
+        <h2>Ranking dos Melhores Tempos</h2>
+    
+        <h3>Fácil</h3>
+        <ol id="ranking-easy">
+            <!-- Ranking fácil será preenchido dinamicamente -->
+        </ol>
+    
+        <h3>Médio</h3>
+        <ol id="ranking-medium">
+            <!-- Ranking médio será preenchido dinamicamente -->
+        </ol>
+    
+        <h3>Difícil</h3>
+        <ol id="ranking-hard">
+            <!-- Ranking difícil será preenchido dinamicamente -->
+        </ol>
+    </div>
+    
+    <script src="./js/login.js"></script>
+</body>
+</html>
