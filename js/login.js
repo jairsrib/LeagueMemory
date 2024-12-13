@@ -13,10 +13,10 @@ document.getElementById('start-game').addEventListener('click', () => {
 
     // Redireciona para a página de jogo de acordo com a dificuldade
     if (difficulty === 'facil') {
-        window.location.href = 'easy/easy.html'; // Página Fácil (4x4)
+        window.location.href = 'pages/easy.html'; // Página Fácil (4x4)
     } else if (difficulty === 'medio') {
-        window.location.href = 'medium/medium.html'; // Página Médio (4x6)
+        window.location.href = 'pages/medium.html'; // Página Médio (4x6)
     } else if (difficulty === 'dificil') {
-        window.location.href = 'hard/hard.html'; // Página Difícil (4x8)
+        window.location.href = 'pages/hard.html'; // Página Difícil (4x8)
     }
 });

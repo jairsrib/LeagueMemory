@@ -25,7 +25,7 @@ main {
   
   .grid {
     display: grid;
-    grid-template-columns: repeat(4, 90px);
+    grid-template-columns: repeat(8, 90px);
     gap: 15px;
     width: 100%;
     max-width: 1200px;

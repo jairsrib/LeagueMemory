@@ -11,6 +11,10 @@ const characters = [
   'Ashe',
   'Ksante',
   'Mordekaiser',
+  'Annie',
+  'AurelionSol',
+  'Azir',
+  'Bard',
 ];
 
 const createElement = (tag, className) => {
@@ -25,7 +29,7 @@ let secondCard = '';
 const checkEndGame = () => {
   const disabledCards = document.querySelectorAll('.disabled-card');
 
-  if (disabledCards.length === 16) {
+  if (disabledCards.length === 24) {
     clearInterval(this.loop);
     alert(`Parabéns, ${spanPlayer.innerHTML}! Seu tempo foi de: ${timer.innerHTML}`);
   }
